@@ -1,12 +1,3 @@
-# Task graph for autonomous AI agents — English reconstruction
-
-> English reconstruction based on a Spanish-language image associated with a post by Hoodie (@HoodieFade_). Tags and variable names have been normalized. This is **not** a prompt authored by Andrej Karpathy, and the author's full original English comment has not been independently verified.
->
-> Source post: https://x.com/HoodieFade_/status/2118010863038746652  
-> Inspiration: https://github.com/karpathy/autoresearch
-
-## Prompt
-
 ```xml
 <prompt>
 <objective>
@@ -125,7 +116,3 @@ Return {{OUTPUT}}, graph.md, checks.md, and progress.md. State what was checked,
 </deliverables>
 </prompt>
 ```
-
-## Before use
-
-Replace `{{TASK}}`, `{{OUTPUT}}`, `{{CHECKS}}`, `{{SOURCES}}`, `{{SCOPE}}`, and `{{LIMIT}}` with explicit values. This prompt assumes an agent runtime with subagents, validation tools, and persistent files; some steps will not be executable without those capabilities.
